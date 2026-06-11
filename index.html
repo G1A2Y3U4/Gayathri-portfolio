@@ -1,9 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PopX</title>
+    <title>Gayathri S. N - Portfolio</title>
+    <meta name="description" content="Gayathri S. N - Full Stack Web Developer | React Developer | AI Enthusiast" />
+    <script>
+      // Apply initial theme from localStorage to avoid flash
+      (function(){
+        try{
+          const theme = localStorage.getItem('theme');
+          if(theme === 'dark') document.documentElement.classList.add('dark');
+        }catch(e){}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
